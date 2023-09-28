@@ -9,7 +9,17 @@ import SwiftUI
 
 struct MainTabBarView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            JoystickHapticsView()
+                .tabItem {
+                    Label("Joystick", systemImage: "waveform.path.ecg")
+                }
+            
+            ContentView()
+                .tabItem {
+                    Label("Haptics", systemImage: "square.and.pencil")
+                }
+        }
     }
 }
 

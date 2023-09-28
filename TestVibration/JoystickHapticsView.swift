@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct JoystickHapticsView: View {
+    @StateObject var viewModel = JoystickHapticsViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text(viewModel.isConnected ? "Controller Connected" : "No Controller Connected")
+                .foregroundColor(viewModel.isConnected ? .green : .red)
+
+            Slider(value: $viewModel.intensity, in: 0...1, step: 0.1)
+                .padding()
+                .disabled(!viewModel.isConnected)
+
+            Slider(value: $viewModel.duration, in: 0.5...5, step: 0.5)
+                .padding()
+                .disabled(!viewModel.isConnected)
+
+            Button(action: {
+                viewModel.vibrate()
+            }) {
+                Text("Start Vibration")
+            }
+            .disabled(!viewModel.isConnected)
+            .padding()
+
+            Button(action: {
+                viewModel.stopVibration()
+            }) {
+                Text("Stop Vibration")
+            }
+            .disabled(!viewModel.isConnected)
+            .padding()
+        }
     }
 }
 

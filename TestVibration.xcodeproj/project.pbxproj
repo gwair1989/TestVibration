@@ -11,6 +11,21 @@
 		FA038E102ABDC83100809779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E0F2ABDC83100809779 /* ContentView.swift */; };
 		FA038E122ABDC83200809779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA038E112ABDC83200809779 /* Assets.xcassets */; };
 		FA038E152ABDC83200809779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA038E142ABDC83200809779 /* Preview Assets.xcassets */; };
+		FA038E1C2ABDC84400809779 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E1B2ABDC84400809779 /* ViewModel.swift */; };
+		FA038E1E2ABDC87800809779 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E1D2ABDC87800809779 /* Model.swift */; };
+		FA038E202ABDD1A300809779 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E1F2ABDD1A300809779 /* HapticsManager.swift */; };
+		FA038E222ABDD38700809779 /* ImpactVibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E212ABDD38700809779 /* ImpactVibrationManager.swift */; };
+		FA0678432AC0A8CE003693F6 /* NotificationVibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0678422AC0A8CE003693F6 /* NotificationVibrationManager.swift */; };
+		FA1C95892AC1DAC500C32390 /* JoystickHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C95882AC1DAC500C32390 /* JoystickHapticsView.swift */; };
+		FA1C958B2AC1DAE400C32390 /* JoystickHapticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C958A2AC1DAE400C32390 /* JoystickHapticsViewModel.swift */; };
+		FA1C958D2AC1DB0000C32390 /* JoystickHapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C958C2AC1DB0000C32390 /* JoystickHapticsManager.swift */; };
+		FA1C958F2AC1DC2100C32390 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C958E2AC1DC2100C32390 /* MainTabBarView.swift */; };
+		FA1C95952AC2D15600C32390 /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = FA1C95942AC2D15600C32390 /* Adapty */; };
+		FA1C95972AC2D1E100C32390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C95962AC2D1E100C32390 /* AppDelegate.swift */; };
+		FA1C959A2AC2E02900C32390 /* AdaptyUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA1C95992AC2E02900C32390 /* AdaptyUI */; };
+		FA1C959C2AC3096000C32390 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C959B2AC3096000C32390 /* SubscriptionService.swift */; };
+		FA1C959E2AC30A3200C32390 /* VisualPaywallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C959D2AC30A3200C32390 /* VisualPaywallController.swift */; };
+		FA1C95A02AC319CA00C32390 /* AdaptyPaywallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C959F2AC319CA00C32390 /* AdaptyPaywallDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,19 @@
 		FA038E0F2ABDC83100809779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA038E112ABDC83200809779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA038E142ABDC83200809779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA038E1B2ABDC84400809779 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FA038E1D2ABDC87800809779 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA038E1F2ABDD1A300809779 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		FA038E212ABDD38700809779 /* ImpactVibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactVibrationManager.swift; sourceTree = "<group>"; };
+		FA0678422AC0A8CE003693F6 /* NotificationVibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVibrationManager.swift; sourceTree = "<group>"; };
+		FA1C95882AC1DAC500C32390 /* JoystickHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickHapticsView.swift; sourceTree = "<group>"; };
+		FA1C958A2AC1DAE400C32390 /* JoystickHapticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickHapticsViewModel.swift; sourceTree = "<group>"; };
+		FA1C958C2AC1DB0000C32390 /* JoystickHapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickHapticsManager.swift; sourceTree = "<group>"; };
+		FA1C958E2AC1DC2100C32390 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		FA1C95962AC2D1E100C32390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1C959B2AC3096000C32390 /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		FA1C959D2AC30A3200C32390 /* VisualPaywallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualPaywallController.swift; sourceTree = "<group>"; };
+		FA1C959F2AC319CA00C32390 /* AdaptyPaywallDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyPaywallDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1C95952AC2D15600C32390 /* Adapty in Frameworks */,
+				FA1C959A2AC2E02900C32390 /* AdaptyUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +82,20 @@
 			isa = PBXGroup;
 			children = (
 				FA038E0D2ABDC83100809779 /* TestVibrationApp.swift */,
+				FA1C958E2AC1DC2100C32390 /* MainTabBarView.swift */,
+				FA1C95962AC2D1E100C32390 /* AppDelegate.swift */,
+				FA1C959B2AC3096000C32390 /* SubscriptionService.swift */,
 				FA038E0F2ABDC83100809779 /* ContentView.swift */,
+				FA1C959F2AC319CA00C32390 /* AdaptyPaywallDelegate.swift */,
+				FA1C95882AC1DAC500C32390 /* JoystickHapticsView.swift */,
+				FA1C958A2AC1DAE400C32390 /* JoystickHapticsViewModel.swift */,
+				FA1C958C2AC1DB0000C32390 /* JoystickHapticsManager.swift */,
+				FA038E1B2ABDC84400809779 /* ViewModel.swift */,
+				FA038E1F2ABDD1A300809779 /* HapticsManager.swift */,
+				FA038E212ABDD38700809779 /* ImpactVibrationManager.swift */,
+				FA0678422AC0A8CE003693F6 /* NotificationVibrationManager.swift */,
+				FA038E1D2ABDC87800809779 /* Model.swift */,
+				FA1C959D2AC30A3200C32390 /* VisualPaywallController.swift */,
 				FA038E112ABDC83200809779 /* Assets.xcassets */,
 				FA038E132ABDC83200809779 /* Preview Content */,
 			);
@@ -83,6 +126,10 @@
 			dependencies = (
 			);
 			name = TestVibration;
+			packageProductDependencies = (
+				FA1C95942AC2D15600C32390 /* Adapty */,
+				FA1C95992AC2E02900C32390 /* AdaptyUI */,
+			);
 			productName = TestVibration;
 			productReference = FA038E0A2ABDC83100809779 /* TestVibration.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,10 @@
 				Base,
 			);
 			mainGroup = FA038E012ABDC83100809779;
+			packageReferences = (
+				FA1C95932AC2D15600C32390 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */,
+				FA1C95982AC2E02900C32390 /* XCRemoteSwiftPackageReference "AdaptyUI-iOS" */,
+			);
 			productRefGroup = FA038E0B2ABDC83100809779 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +188,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1C95972AC2D1E100C32390 /* AppDelegate.swift in Sources */,
+				FA1C958B2AC1DAE400C32390 /* JoystickHapticsViewModel.swift in Sources */,
+				FA038E222ABDD38700809779 /* ImpactVibrationManager.swift in Sources */,
 				FA038E102ABDC83100809779 /* ContentView.swift in Sources */,
+				FA1C958F2AC1DC2100C32390 /* MainTabBarView.swift in Sources */,
+				FA038E1C2ABDC84400809779 /* ViewModel.swift in Sources */,
+				FA1C95892AC1DAC500C32390 /* JoystickHapticsView.swift in Sources */,
+				FA1C95A02AC319CA00C32390 /* AdaptyPaywallDelegate.swift in Sources */,
 				FA038E0E2ABDC83100809779 /* TestVibrationApp.swift in Sources */,
+				FA0678432AC0A8CE003693F6 /* NotificationVibrationManager.swift in Sources */,
+				FA038E202ABDD1A300809779 /* HapticsManager.swift in Sources */,
+				FA1C959E2AC30A3200C32390 /* VisualPaywallController.swift in Sources */,
+				FA1C959C2AC3096000C32390 /* SubscriptionService.swift in Sources */,
+				FA1C958D2AC1DB0000C32390 /* JoystickHapticsManager.swift in Sources */,
+				FA038E1E2ABDC87800809779 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,27 +328,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"TestVibration/Preview Content\"";
-				DEVELOPMENT_TEAM = 2D98858FQA;
+				DEVELOPMENT_TEAM = G39922AGDV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aiChat.TestVibration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.relaxingapplication.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,27 +363,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"TestVibration/Preview Content\"";
-				DEVELOPMENT_TEAM = 2D98858FQA;
+				DEVELOPMENT_TEAM = G39922AGDV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aiChat.TestVibration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.relaxingapplication.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +415,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA1C95932AC2D15600C32390 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adaptyteam/AdaptySDK-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FA1C95982AC2E02900C32390 /* XCRemoteSwiftPackageReference "AdaptyUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adaptyteam/AdaptyUI-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA1C95942AC2D15600C32390 /* Adapty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1C95932AC2D15600C32390 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */;
+			productName = Adapty;
+		};
+		FA1C95992AC2E02900C32390 /* AdaptyUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA1C95982AC2E02900C32390 /* XCRemoteSwiftPackageReference "AdaptyUI-iOS" */;
+			productName = AdaptyUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA038E022ABDC83100809779 /* Project object */;
 }

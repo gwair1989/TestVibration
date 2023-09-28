@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Adapty
 
 @main
 struct TestVibrationApp: App {
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabBarView()
         }
     }
 }
+
+
