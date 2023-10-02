@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2D593E2AC6E2040014C3A1 /* ControllerHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D593D2AC6E2040014C3A1 /* ControllerHapticsView.swift */; };
+		5A2D59402AC6E23C0014C3A1 /* ControllerHapticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D593F2AC6E23C0014C3A1 /* ControllerHapticsViewModel.swift */; };
+		5A3490652ACAA5600034B430 /* Heartbeats2.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A3490642ACAA5600034B430 /* Heartbeats2.ahap */; };
+		5A3490672ACAA69A0034B430 /* Sparkle2.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A3490662ACAA69A0034B430 /* Sparkle2.ahap */; };
+		5A82C4542AC5B4F500F285EA /* InLava.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A82C4532AC5B4F500F285EA /* InLava.ahap */; };
+		5A82C4562AC5C84300F285EA /* Oscillate.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A82C4552AC5C84300F285EA /* Oscillate.ahap */; };
+		5A82C45C2AC5DF2300F285EA /* Heartbeats.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A82C45B2AC5DF2300F285EA /* Heartbeats.ahap */; };
+		5A82C45E2AC5E5D000F285EA /* ControllerHapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82C45D2AC5E5D000F285EA /* ControllerHapticsManager.swift */; };
+		5A82C4622AC5F28F00F285EA /* InLavaStrong.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A82C4612AC5F28F00F285EA /* InLavaStrong.ahap */; };
+		5A82C4672AC5F39F00F285EA /* Rumble.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 5A82C4642AC5F39F00F285EA /* Rumble.ahap */; };
 		FA038E0E2ABDC83100809779 /* TestVibrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E0D2ABDC83100809779 /* TestVibrationApp.swift */; };
 		FA038E102ABDC83100809779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038E0F2ABDC83100809779 /* ContentView.swift */; };
 		FA038E122ABDC83200809779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA038E112ABDC83200809779 /* Assets.xcassets */; };
@@ -29,6 +39,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2D593D2AC6E2040014C3A1 /* ControllerHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerHapticsView.swift; sourceTree = "<group>"; };
+		5A2D593F2AC6E23C0014C3A1 /* ControllerHapticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerHapticsViewModel.swift; sourceTree = "<group>"; };
+		5A3490642ACAA5600034B430 /* Heartbeats2.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Heartbeats2.ahap; sourceTree = "<group>"; };
+		5A3490662ACAA69A0034B430 /* Sparkle2.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sparkle2.ahap; sourceTree = "<group>"; };
+		5A82C4532AC5B4F500F285EA /* InLava.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InLava.ahap; sourceTree = "<group>"; };
+		5A82C4552AC5C84300F285EA /* Oscillate.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oscillate.ahap; sourceTree = "<group>"; };
+		5A82C45B2AC5DF2300F285EA /* Heartbeats.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Heartbeats.ahap; sourceTree = "<group>"; };
+		5A82C45D2AC5E5D000F285EA /* ControllerHapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerHapticsManager.swift; sourceTree = "<group>"; };
+		5A82C4612AC5F28F00F285EA /* InLavaStrong.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InLavaStrong.ahap; sourceTree = "<group>"; };
+		5A82C4642AC5F39F00F285EA /* Rumble.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rumble.ahap; sourceTree = "<group>"; };
 		FA038E0A2ABDC83100809779 /* TestVibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVibration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA038E0D2ABDC83100809779 /* TestVibrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVibrationApp.swift; sourceTree = "<group>"; };
 		FA038E0F2ABDC83100809779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2D593C2AC6E1E10014C3A1 /* ControllerHaptics */ = {
+			isa = PBXGroup;
+			children = (
+				5A82C45D2AC5E5D000F285EA /* ControllerHapticsManager.swift */,
+				5A2D593D2AC6E2040014C3A1 /* ControllerHapticsView.swift */,
+				5A2D593F2AC6E23C0014C3A1 /* ControllerHapticsViewModel.swift */,
+			);
+			path = ControllerHaptics;
+			sourceTree = "<group>";
+		};
 		FA038E012ABDC83100809779 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,13 @@
 		FA038E0C2ABDC83100809779 /* TestVibration */ = {
 			isa = PBXGroup;
 			children = (
+				5A82C4532AC5B4F500F285EA /* InLava.ahap */,
+				5A82C4612AC5F28F00F285EA /* InLavaStrong.ahap */,
+				5A82C4552AC5C84300F285EA /* Oscillate.ahap */,
+				5A82C45B2AC5DF2300F285EA /* Heartbeats.ahap */,
+				5A3490642ACAA5600034B430 /* Heartbeats2.ahap */,
+				5A3490662ACAA69A0034B430 /* Sparkle2.ahap */,
+				5A82C4642AC5F39F00F285EA /* Rumble.ahap */,
 				FA038E0D2ABDC83100809779 /* TestVibrationApp.swift */,
 				FA1C958E2AC1DC2100C32390 /* MainTabBarView.swift */,
 				FA1C95962AC2D1E100C32390 /* AppDelegate.swift */,
@@ -90,6 +127,7 @@
 				FA1C95882AC1DAC500C32390 /* JoystickHapticsView.swift */,
 				FA1C958A2AC1DAE400C32390 /* JoystickHapticsViewModel.swift */,
 				FA1C958C2AC1DB0000C32390 /* JoystickHapticsManager.swift */,
+				5A2D593C2AC6E1E10014C3A1 /* ControllerHaptics */,
 				FA038E1B2ABDC84400809779 /* ViewModel.swift */,
 				FA038E1F2ABDD1A300809779 /* HapticsManager.swift */,
 				FA038E212ABDD38700809779 /* ImpactVibrationManager.swift */,
@@ -176,7 +214,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3490672ACAA69A0034B430 /* Sparkle2.ahap in Resources */,
 				FA038E152ABDC83200809779 /* Preview Assets.xcassets in Resources */,
+				5A3490652ACAA5600034B430 /* Heartbeats2.ahap in Resources */,
+				5A82C4542AC5B4F500F285EA /* InLava.ahap in Resources */,
+				5A82C45C2AC5DF2300F285EA /* Heartbeats.ahap in Resources */,
+				5A82C4622AC5F28F00F285EA /* InLavaStrong.ahap in Resources */,
+				5A82C4562AC5C84300F285EA /* Oscillate.ahap in Resources */,
+				5A82C4672AC5F39F00F285EA /* Rumble.ahap in Resources */,
 				FA038E122ABDC83200809779 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,10 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2D59402AC6E23C0014C3A1 /* ControllerHapticsViewModel.swift in Sources */,
+				5A2D593E2AC6E2040014C3A1 /* ControllerHapticsView.swift in Sources */,
 				FA1C95972AC2D1E100C32390 /* AppDelegate.swift in Sources */,
 				FA1C958B2AC1DAE400C32390 /* JoystickHapticsViewModel.swift in Sources */,
 				FA038E222ABDD38700809779 /* ImpactVibrationManager.swift in Sources */,
 				FA038E102ABDC83100809779 /* ContentView.swift in Sources */,
+				5A82C45E2AC5E5D000F285EA /* ControllerHapticsManager.swift in Sources */,
 				FA1C958F2AC1DC2100C32390 /* MainTabBarView.swift in Sources */,
 				FA038E1C2ABDC84400809779 /* ViewModel.swift in Sources */,
 				FA1C95892AC1DAC500C32390 /* JoystickHapticsView.swift in Sources */,

@@ -10,7 +10,8 @@ import SwiftUI
 struct MainTabBarView: View {
     var body: some View {
         TabView {
-            JoystickHapticsView()
+//            JoystickHapticsView()
+            ControllerHapticsView()
                 .tabItem {
                     Label("Joystick", systemImage: "waveform.path.ecg")
                 }
